@@ -36,9 +36,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Next.js course on LMS
-
+### 01
 - terminal: => `npx create-next-app@latest`
 - .gitignore: => `tools: .idea .vscode`
 - terminal: => `npm i prettier eslint-config-prettier --dev`
 - .prettierrc: => `візьми стандартні налаштування`
 - .eslintrc.json: => `{"extends": ["next/core-web-vitals", "prettier"]}`
+
+### 02
+- layout.tsx: => `import './globals.css'`;
+- `npm install -D tailwindcss postcss autoprefixer` & `npx tailwindcss init -p`
+- tailwind.config.js: => `content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],`
+- app/globals.css: => `@tailwind base; @tailwind components; @tailwind utilities;`
