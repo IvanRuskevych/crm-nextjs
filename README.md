@@ -48,3 +48,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - `npm install -D tailwindcss postcss autoprefixer` & `npx tailwindcss init -p`
 - tailwind.config.js: => `content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],`
 - app/globals.css: => `@tailwind base; @tailwind components; @tailwind utilities;`
+
+### 03
+- `npm i clsx`
