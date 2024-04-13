@@ -70,3 +70,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### 05 import fonts
 
 - layout.tsx: => `import { Plus_Jakarta_Sans } from 'next/font/google';`
+
+### 06 Navigation
+- import { usePathname, useRouter } from 'next/navigation';
+- const router = useRouter();
+- `router.push('/');` => додає новий запис у стеку історії браузера
+- `router.replace('/');` => замінює поточний роут, та не додає новий запис у стек історії браузера
+- const pathname = usePathname();
+- `current={pathname === '/dashboard'}`
