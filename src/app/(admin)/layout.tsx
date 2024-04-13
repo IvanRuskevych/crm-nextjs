@@ -6,6 +6,7 @@ export interface LayoutProps {
 }
 
 function Layout({ children }: LayoutProps) {
+  console.log('rendering');
   return (
     <>
       <Sidebar />
