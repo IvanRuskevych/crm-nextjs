@@ -46,20 +46,21 @@ function CompanyForm({ onSubmit }: CompanyFormProps) {
               placeholder={'Country'}
               name={'country'}
             />
-            <div className="flex flex-col flex-1 gap-5">
-              <InputField label={'Name'} placeholder={'Name'} name={'name'} />
-              <InputField
-                label="Category"
-                placeholder="Category"
-                name="category"
-              />
-              <InputField label="Joined date" type="date" name="date" />
-              <InputField
-                label={'Description'}
-                placeholder={'Description'}
-                name={'description'}
-              />
-            </div>
+          </div>
+
+          <div className="flex flex-col flex-1 gap-5">
+            <InputField label={'Name'} placeholder={'Name'} name={'name'} />
+            <InputField
+              label="Category"
+              placeholder="Category"
+              name="category"
+            />
+            <InputField label="Joined date" type="date" name="date" />
+            <InputField
+              label={'Description'}
+              placeholder={'Description'}
+              name={'description'}
+            />
           </div>
         </div>
         <Button type="submit">Add company</Button>
