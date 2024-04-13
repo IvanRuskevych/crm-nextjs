@@ -78,3 +78,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - `router.replace('/');` => замінює поточний роут, та не додає новий запис у стек історії браузера
 - const pathname = usePathname();
 - `current={pathname === '/dashboard'}`
+
+### 06 Error Handling
+- dashboard/error.tsx: => файл для локального відлову помилок, лише для вкладених елементів
+- app/global-error.tsx => файл для відлову помилок на глобальному рівні
