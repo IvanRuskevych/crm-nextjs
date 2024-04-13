@@ -51,3 +51,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### 03
 - `npm i clsx`
+
+### 04 Server Components
+- `<h1 className={'text-xl'}>Home page {new Date().toTimeString()}</h1>`
+- `npm run dev` => при оновленні сторінки час змінюється
+- `npm run build` => `npm run start` => при оновленні сторінки час НЕ змінюється, тому що отримуємо закешовану версію
+
+### 04 Static and Dynamic Rendering
+- Static Rendering:
+- Dynamic Rendering has Dynamic functions:
+- `cookies()` - дозволяє читати cookie із вихідного HTTP запиту 
+- `headers()` - дозволяє читати заголовки із вихідного HTTP запиту 
+- `useSearchParams()` - дозволяє зчитувати запиту з URL 
+- `searchParams` - обєкт, що містить параметри пошуку з URL 
+- Client Components:
