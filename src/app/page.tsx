@@ -1,6 +1,7 @@
 // import { Status, StatusLabel } from '@/app/components/status-label';
 import { headers } from 'next/headers';
 import AddCompanyButton from '@/app/components/add-company-button';
+import ButtonForError from '@/app/components/button-for-error';
 
 export default function Home() {
   // Static Dynamic Rendering => викликаємо наприклад функцію headers()
@@ -19,6 +20,7 @@ export default function Home() {
       {/* Client Components */}
       <h1 className={'text-xl'}>Home page </h1>
       <AddCompanyButton />
+      <ButtonForError />
     </main>
   );
 }
