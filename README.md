@@ -65,3 +65,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - `useSearchParams()` - дозволяє зчитувати запиту з URL 
 - `searchParams` - обєкт, що містить параметри пошуку з URL 
 - Client Components:
+
+
+### 05 import fonts
+
+- layout.tsx: => `import { Plus_Jakarta_Sans } from 'next/font/google';`
