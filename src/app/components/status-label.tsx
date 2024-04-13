@@ -14,7 +14,11 @@ export interface StatusLabelProps {
   disabled?: boolean;
 }
 
-export function StatusLabel({ children, status, disabled }: StatusLabelProps) {
+export default function StatusLabel({
+  children,
+  status,
+  disabled,
+}: StatusLabelProps) {
   return (
     <div
       className={clsx(
