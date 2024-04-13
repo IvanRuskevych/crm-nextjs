@@ -6,7 +6,7 @@ function ButtonForError(props: ButtonProps) {
   const [count, setCount] = useState(0);
 
   useLayoutEffect(() => {
-    if (count > 2) {
+    if (count > 1) {
       throw new Error('Unexpected error occurred.');
     }
   }, [count]);
