@@ -8,7 +8,7 @@ function GlobalError({}: GlobalErrorProps) {
   return (
     <html>
       <body>
-        <div>{'Something went wrong!!!'}</div>
+        <div>{'Something GLOBAL went wrong!!!'}</div>
       </body>
     </html>
   );

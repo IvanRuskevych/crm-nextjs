@@ -3,17 +3,18 @@
 import React from 'react';
 import Button from '@/app/components/button';
 
-export interface ErrorComponentProps {
+export interface ErrorProps {
   error: Error;
   reset: () => void;
 }
-function ErrorComponent({ error, reset }: ErrorComponentProps) {
+
+function Error({ error, reset }: ErrorProps) {
   return (
     <div>
-      <p>{`Something LOCAL went wrong: ${error.message}`}</p>
+      <p>`Unexpected Error inside slot sales: {error.message}`</p>
       <Button onClick={() => reset()}>Try again</Button>
     </div>
   );
 }
 
-export default ErrorComponent;
+export default Error;
